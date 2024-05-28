@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .btn-home {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background-color: #3a6351;
+            color: white;
+        }
+
+        .btn-home:hover {
+            background-color: #2e5041;
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn-signup {
+            background-color: #3a6351;
+            color: white;
+            width: 100%;
+        }
+
+        .btn-signup:hover {
+            background-color: #2e5041;
+        }
+
+        .btn-signin {
+            background-color: #3a6351;
+            color: white;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .btn-signin:hover {
+            background-color: #2e5041;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="lab2.html" class="btn btn-home">Home</a>
+
+    <div class="form-container">
+        <h2>Create New Account</h2>
+        <form>
+            <input type="text" class="form-control" placeholder="Phone Number: 0345678912">
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="password" class="form-control" placeholder="New Password">
+            <input type="password" class="form-control" placeholder="New Password Again">
+            <button type="submit" class="btn btn-signup">Sign Up</button>
+            <button type="button" class="btn btn-signin">Sign In</button>
+        </form>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
